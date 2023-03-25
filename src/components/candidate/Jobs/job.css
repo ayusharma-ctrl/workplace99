@@ -1,0 +1,117 @@
+.card-container1 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-info {
+    text-align: left;
+}
+
+.company-info h2 {
+    font-weight: 500;
+    font-size: clamp(16px, 2.1vw, 32px);
+    line-height: clamp(16px, 2.5vw, 38px);
+    margin: 2px;
+    padding-left: 5px;
+    color: #000000;
+}
+
+.company-info h3 {
+    font-weight: 400;
+    font-size: clamp(10px, 1.3vw, 20px);
+    line-height: clamp(12px, 1.5vw, 24px);
+    color: #000000;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.company-info h4 {
+    font-weight: 400;
+    font-size: clamp(9px, 1vw, 16px);
+    line-height: clamp(8px, 1.2vw, 19px);
+    color: #828282;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.company-info2 {
+    text-align: right;
+}
+
+.company-info2 h2 {
+    font-weight: 500;
+    font-size: clamp(16px, 2.1vw, 32px);
+    line-height: clamp(16px, 2.5vw, 38px);
+    margin: 2px;
+    padding-left: 5px;
+    color: #000000;
+}
+
+.company-info2 h3 {
+    font-weight: 400;
+    font-size: clamp(10px, 1.3vw, 20px);
+    line-height: clamp(12px, 1.5vw, 24px);
+    color: #000000;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.company-info2 h4 {
+    font-weight: 400;
+    font-size: clamp(9px, 1vw, 16px);
+    line-height: clamp(9px, 1.2vw, 19px);
+    color: #828282;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.job-info {
+    border: 1px solid #D4D4D4;
+    border-radius: 7px;
+    max-width: 95%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.apply-btn {
+    background: #26D7AB;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: clamp(4px, 0.8vw, 9px);
+    border: none;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.applied-btn {
+    background: #26D7AB;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: clamp(4px, 0.8vw, 9px);
+    border: none;
+    margin: 5px auto;
+    opacity: 0.4;
+}
+
+.details-btn {
+    background: #ceb3b3;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: clamp(4px, 0.8vw, 9px);
+    border: none;
+    margin: 5px 5px 5px -20px;
+    cursor: pointer;
+}

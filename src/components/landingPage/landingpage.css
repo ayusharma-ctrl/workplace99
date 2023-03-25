@@ -1,0 +1,102 @@
+.right-job-section {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-job-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(35px, 4.8vw, 70px);
+  line-height: clamp(41px, 5vw, 82px);
+  text-align: center;
+  width: 60%;
+  max-width: 800px;
+  color: #000000;
+}
+
+.right-job-section h1 span {
+  color: #4540DB;
+}
+
+.right-job-section h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 2vw, 30px);
+  line-height: clamp(18px, 2.4vw, 36px);
+  text-align: center;
+
+  color: #000000;
+
+  transform: rotate(-0.64deg);
+}
+
+.one-platform-container {
+  background: #F6F7FC;
+  padding: 25px 5px
+}
+
+.one-platform-container h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(25px, 3.2vw, 50px);
+  line-height: clamp(30px, 3.6vw, 60px);
+  text-align: center;
+
+  color: #000000;
+}
+
+.one-platform-container h1 span {
+  color: #4540DB;
+}
+
+.one-platform-container>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card-container {
+  display: flex;
+  max-width: 220px;
+  /* background: #fff; */
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.card-container:hover {
+  background-color: #4540DB;
+  opacity:0.9;
+}
+
+.card-icon img {
+  width: 40px;
+  height: 40px;
+  padding: 0 10px 0 7px;
+}
+
+.gitIcon:hover{
+  transform: translateY(-0.4rem);
+}
+
+.underDevelopment {
+  min-height: 400px;
+  background-image: url('../../assets/app.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* clamp */
+/* clamp(min size,ratio,max size) */
+/* ratio = (max size/ design's width)X100 vw */

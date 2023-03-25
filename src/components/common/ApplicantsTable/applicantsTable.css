@@ -1,0 +1,72 @@
+.table-header {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    max-width: 1100px;
+    width: 90%;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: clamp(12px, 1.3vw, 20px);
+    line-height: 24px;
+    color: #000000;
+}
+
+.table-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    max-width: 1100px;
+    width: 90%;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 15px;
+    font-size: clamp(12px, 1vw, 16px);
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.accepted {
+    background: #0cc655;
+    color: #fff;
+    padding: clamp(2.5px,0.5vw,7px) clamp(5px,0.9vw,14px);
+    border: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: clamp(7px,0.9vw,14px);
+}
+
+.rejected {
+    background: #ff5700;
+    color: #fff;
+    padding: clamp(2.5px,0.5vw,7px) clamp(5px,0.9vw,14px);
+    border: none;
+    border-radius: 10px;
+    font-size: clamp(7px,0.9vw,14px);
+}
+
+.resume-btn {
+    background: #0cc6b0;
+    color: #fff;
+    padding: clamp(2.5px,0.5vw,7px) clamp(5px,0.9vw,14px);
+    border: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: clamp(7px,0.9vw,14px);
+    cursor: pointer;
+}
+.profile-btn {
+    background: #46cae5;
+    color: #fff;
+    padding: clamp(2.5px,0.5vw,7px) clamp(5px,0.9vw,14px);
+    border: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: clamp(7px,0.9vw,14px);
+    cursor: pointer;
+}

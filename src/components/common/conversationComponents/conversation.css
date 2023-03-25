@@ -1,0 +1,143 @@
+.last-message-container {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 20px auto;
+
+}
+
+.last-message {
+  margin: 20px 5px;
+  padding: 7px;
+}
+
+.last-message :first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-message h2 {
+  font-weight: 600;
+  font-size: clamp(14px, 1.3vw, 22px);
+  line-height: 26px;
+
+  color: #000000;
+  margin: 2px;
+}
+
+.last-message h3 {
+  font-weight: 400;
+  font-size: clamp(12px, 1vw, 16px);
+  line-height: 19px;
+  margin: 2px;
+
+  color: #828282;
+
+}
+
+.last-message-text {
+  text-align: left;
+  padding: 7px;
+  border-bottom: 1px solid #0000002b;
+  font-weight: 400;
+  font-size: clamp(12px, 1.3vw, 18px);
+  line-height: 22px;
+  border-radius: 5px;
+  color: #4F4F4F;
+
+}
+
+.last-message-text-selected {
+  text-align: left;
+  padding: 7px;
+  border-left: 3px solid #4540DB;
+  font-weight: 400;
+  font-size: clamp(12px, 1.3vw, 18px);
+  line-height: 22px;
+  color: #4F4F4F;
+  border-radius: 5px;
+
+}
+
+.message-area-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-area-container-header {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+  /* font-weight: 500; */
+  font-size: clamp(12px,2vw,20px);
+  line-height: clamp(15px,2.4vw,29px);
+  color: #000000;
+  padding: 10px 0px;
+  border-bottom: 1px solid #0000001c;
+  width: 90%;
+  margin: 20px auto auto auto;
+  background-color: #f65353;
+
+}
+
+.message-area-container-header > div {
+  display: flex;
+  padding: auto 20px;
+  justify-content: space-between;
+}
+
+.message-area-container-messages {
+  min-height: 70%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(42, 46, 46);
+}
+
+
+.message-area-container-text-area {
+  gap: 10px;
+  padding: 10px 20px;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.msgSentTime {
+  color: rgb(0,0,0,0.6);
+  font-weight: 200;
+  font-size: clamp(9px,1vw,13px);
+  /* float:right; */
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+.message-area-container-text-area>button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  background-color: #4540DB;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.message-area-container-messages-message {
+  display: flex;
+  margin: 20px 0px;
+
+}
+
+.message-area-container-messages-message>div {
+  background: #EAEAEA;
+  padding: 10px;
+  max-width: 50%;
+  text-align: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}

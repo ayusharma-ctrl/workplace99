@@ -1,0 +1,125 @@
+.sidebar-container {
+  max-width: 95%;
+  margin: auto;
+  padding: 10px;
+  border-right: 1.5px dotted black;
+}
+
+.postbtn {
+  background: rgba(69, 64, 219, 0.05);
+  border: 1.5px solid #4540DB;
+  border-radius: 19px;
+  height: 121px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 10px auto;
+}
+
+.postbtn p {
+  font-weight: 600;
+  font-size: clamp(18px, 1.9vw, 28px);
+  margin: 0px;
+  line-height: clamp(24px, 2.1vw, 34px);
+  color: #4540DB;
+}
+
+.postbtn div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 15px);
+  line-height: 18px;
+  color: #8C8C8C;
+}
+
+.sideJobCard {
+  text-align: left;
+  padding: 15px 10px;
+  border-bottom: 1px solid #0000003b;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sideJobCard-slected {
+  background: #F2F2F2;
+  border-radius: 10px;
+  border-left: 3px solid #4540DB;
+}
+
+.sideJobCard h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(8px, 1vw, 12px);
+  line-height: 14px;
+  margin: 0px;
+
+  color: #959595;
+}
+
+.sideJobCard h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(14px, 1.5vw, 22px);
+  line-height: clamp(16px, 1.3vw, 26px);
+  margin: 5px 0px;
+
+  color: #000000;
+}
+
+.sideJobCard h2 {
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 16px);
+  line-height: clamp(12px, 1.1vw, 19px);
+  color: #959595;
+}
+
+.sideJobCard p {
+  font-weight: 500;
+  font-size: clamp(10px, 1.2vw, 16px);
+  line-height: clamp(12px, 1.1vw, 19px);
+  margin: 2px;
+  color: #959595;
+
+}
+
+.jobfrom-container {
+  max-width: 95%;
+  margin: 20px auto !important;
+  padding: 20px 10px;
+  border: 1px solid #0000001c;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.form-label {
+  font-weight: bold;
+  float: left;
+  padding: 8px 0px;
+
+}
+
+.submit-btn {
+  margin: 15px !important;
+}
+
+.submit-btn button {
+  background: #4540DB;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.formArea {
+  background-color: rgb(149, 149, 149, 0.2);
+  /* min-height: 100vh; */
+  /* padding-right: 16px; */
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

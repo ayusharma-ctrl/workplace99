@@ -1,0 +1,16 @@
+.dropdown-values{
+  display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.dropdown-values div{
+  padding: 7px;
+  border: 1px solid #0000002b;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: orchid;
+  min-width: 70px;
+}
