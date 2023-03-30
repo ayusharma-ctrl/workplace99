@@ -33,16 +33,11 @@ function Auth({ usertype }) {
 
 //if user exists, then redirect 
     if (docSnap.exists()) {
-      // dispatch(SET_USER_INFO(docSnap.data()))
-      // setExist(true)
-      // setType(docSnap.data().userType)
-      // console.log("Document data:", docSnap.data());
-      // setUserInformation(docSnap.data());
-      // setScreenLoading(false);
       redirectUser(docSnap.data().userType, true,docSnap)
     } else {
       // doc.data() will be undefined in this case
-      redirectUser(docSnap.data().userType, false,docSnap)
+      const type = usertype.toLowerCase();
+      redirectUser(type, false,docSnap);
       // console.log("No such document!");
     }
   };
